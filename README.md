@@ -1,2 +1,2 @@
 # wk-space
-study
+咕泡学院教师源码
