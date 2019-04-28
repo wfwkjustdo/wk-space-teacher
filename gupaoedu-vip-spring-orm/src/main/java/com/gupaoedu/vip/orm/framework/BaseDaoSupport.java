@@ -173,7 +173,7 @@ public abstract class BaseDaoSupport<T extends Serializable, PK extends Serializ
 	 * @param entity
 	 * @return
 	 */
-	protected boolean insert(T entity) throws Exception{
+	public boolean insert(T entity) throws Exception{
 		return this.doInsert(parse(entity));
 	}
 

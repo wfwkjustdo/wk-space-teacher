@@ -61,11 +61,11 @@ public class OrmTest {
 	public void testSelectMember(){
 
 		try {
-//            List<Member> result = memberDao.selectAll();
-//            System.out.println(Arrays.toString(result.toArray()));
+            List<Member> result = memberDao.selectAll();
+            System.out.println(Arrays.toString(result.toArray()));
 
-			List<Member> result = memberDao.selectByName("tom");
-			System.out.println(Arrays.toString(result.toArray()));
+//			List<Member> result = memberDao.selectByName("tom");
+//			System.out.println(Arrays.toString(result.toArray()));
 
 		} catch (Exception e) {
 			e.printStackTrace();
