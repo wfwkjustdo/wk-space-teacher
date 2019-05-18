@@ -165,7 +165,8 @@ public class Configuration {
         String mainPath = classPath + mapperPath;
         doPath(new File(mainPath));
         for (String className : classPaths) {
-            className = className.replace(classPath.replace("/","\\").replaceFirst("\\\\",""),"").replace("\\",".").replace(".class","");
+            className = className.replace(classPath.replace("/","\\").replaceFirst("\\\\",""),"")
+                    .replace("\\",".").replace(".class","");
             Class<?> clazz = null;
             try {
                 clazz = Class.forName(className);
