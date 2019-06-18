@@ -4,6 +4,8 @@ import java.nio.*;
 import java.nio.channels.*;  
   
 public class FileInputDemo {
+
+
     static public void main( String args[] ) throws Exception {  
         FileInputStream fin = new FileInputStream("E://test.txt");
         

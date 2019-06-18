@@ -4,6 +4,10 @@ import java.nio.*;
 import java.nio.channels.*;  
   
 public class BufferDemo {
+
+
+    //put/get
+
     public static void main(String args[]) throws Exception {  
         //这用用的是文件IO处理
         FileInputStream fin = new FileInputStream("E://test.txt");
