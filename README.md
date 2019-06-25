@@ -95,9 +95,9 @@ rpc-client02
 
 gupaoedu-vip-netty-io
 
-#### 02.Netty与NIO之前世今生
+#### 02.Netty初体验之手写Tomcat
 
-和上节源码在一起：gupaoedu-vip-netty-io
+gupaoedu-vip-netty-tomcat
 
 #### 03.基于Netty重构RPC框架
 
