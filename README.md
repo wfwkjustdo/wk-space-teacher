@@ -107,6 +107,16 @@ gupaoedu-vip-netty-rpc
 
 无源码
 
+### 05分布式服务治理
+
+#### 02.SpringBoot的自动化装载机制的原理分析
+
+gupao-core
+
+spring-boot-first
+
+
+
 
 
 
