@@ -109,11 +109,17 @@ gupaoedu-vip-netty-rpc
 
 ### 05分布式服务治理
 
-#### 02.SpringBoot的自动化装载机制的原理分析
+#### 02.SpringBoot的自动化装载机制的原理分析(上)
 
 gupao-core
 
 spring-boot-first
+
+#### SpringBoot核心原理
+
+format-spring-boot-starter
+
+springboot-starter-demo
 
 
 
