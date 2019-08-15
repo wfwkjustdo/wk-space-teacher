@@ -1,7 +1,10 @@
+[TOC]
+
 # wk-space-teacher
+
 咕泡学院教师源码
 
-## Spring原理解析：Tom老师：
+# Spring原理解析：Tom老师：
 
 1.
 
@@ -9,25 +12,25 @@
 
 
 
-## Mybatis原理及应用解析：青山老师：
+# Mybatis原理及应用解析：青山老师：
 
-### 1.gupaoedu-vip-mybatis-standalone
+## 1.gupaoedu-vip-mybatis-standalone
 
 MyBatis编程式使用案例：
 
 在IDEA中，需要修改Java Compiler为1.8，Project Structure —— Modules 的Language Level为1.8
 
-### 2.gupaoedu-vip-spring-mybatis
+## 2.gupaoedu-vip-spring-mybatis
 
 Spring与MyBatis集成案例：
 
 需要部署到tomcat中启动，访问：http://localhost:8080/
 
-### 3.mybatis-generator
+## 3.mybatis-generator
 
  MyBatis代码生成器
 
-### 4.gupaoedu-vip-mybatis-custom
+## 4.gupaoedu-vip-mybatis-custom
 
 手写Mybatis的实现框架
 
@@ -69,13 +72,13 @@ jar包依赖：
 　mybatis-spring 2.0.0
 ```
 
-## 分布式：Mic老师
+# 分布式：Mic老师
 ### 01.初步认识多线程的发展及使用
 thread-demo01
 
-### 03.分布式架构基础
+## 03.分布式架构基础
 
-#### 03.RPC通信的原理以及手写实现
+### 03.RPC通信的原理以及手写实现
 
 基础版本：
 
@@ -89,39 +92,39 @@ rpc-server02
 
 rpc-client02
 
-### 04分布式通讯框架
+## 04分布式通讯框架
 
-#### 01.Java IO演进之路
+### 01.Java IO演进之路
 
 gupaoedu-vip-netty-io
 
-#### 02.Netty初体验之手写Tomcat
+### 02.Netty初体验之手写Tomcat
 
 gupaoedu-vip-netty-tomcat
 
-#### 03.基于Netty重构RPC框架
+### 03.基于Netty重构RPC框架
 
 gupaoedu-vip-netty-rpc
 
-#### 04.Netty核心之Netty高性能之道
+### 04.Netty核心之Netty高性能之道
 
 无源码
 
-### 05分布式服务治理
+## 05分布式服务治理
 
-#### 02.SpringBoot的自动化装载机制的原理分析(上)
+### 02.SpringBoot的自动化装载机制的原理分析(上)
 
 gupao-core
 
 spring-boot-first
 
-#### 03.SpringBoot核心原理(下)
+### 03.SpringBoot核心原理(下)
 
 format-spring-boot-starter
 
 springboot-starter-demo
 
-#### 04.微服务架构下的服务注册中心设计及实战
+### 04.微服务架构下的服务注册中心设计及实战
 
 源码（无）
 
