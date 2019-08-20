@@ -134,6 +134,7 @@ rpc-client-zk
 
 rpc-server-zk
 
+curator-demo
 
 
 
