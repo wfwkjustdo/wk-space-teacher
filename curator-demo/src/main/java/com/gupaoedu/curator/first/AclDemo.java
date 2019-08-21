@@ -1,4 +1,4 @@
-package com.gupaoedu.curator;
+package com.gupaoedu.curator.first;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;

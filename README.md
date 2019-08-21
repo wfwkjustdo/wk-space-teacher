@@ -134,8 +134,11 @@ rpc-client-zk
 
 rpc-server-zk
 
-curator-demo
+curator-demo​ :package:first
 
+### 06.深入分析Zookeeper核心原理
+
+curator-demo​ ​ :package:second
 
 
 
