@@ -86,6 +86,7 @@ public class GpRpcServer implements ApplicationContextAware,InitializingBean {
         InetAddress inetAddress=null;
         try {
             inetAddress=InetAddress.getLocalHost();
+            System.out.println("本机的IP地址为："+inetAddress.getHostAddress());
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
