@@ -17,7 +17,7 @@ public class App
         RpcProxyClient rpcProxyClient=context.getBean(RpcProxyClient.class);
 
         IHelloService iHelloService=rpcProxyClient.clientProxy
-                (IHelloService.class,"v2.0");
+                (IHelloService.class,"v1.0");
         for(int i=0;i<100;i++) {
             Thread.sleep(2000);
             System.out.println(iHelloService.sayHello(1.0));
