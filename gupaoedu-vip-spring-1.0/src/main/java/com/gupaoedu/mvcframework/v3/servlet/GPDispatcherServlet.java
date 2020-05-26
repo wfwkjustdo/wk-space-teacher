@@ -165,19 +165,24 @@ public class GPDispatcherServlet extends HttpServlet{
 		if(ioc.isEmpty()){ return; }
 		
 		for (Entry<String, Object> entry : ioc.entrySet()) {
-			//拿到实例对象中的所有属性
+			//Declared 所有的，特定的字段，包括private/protected/default
+			//正常来说，普通的OOP 编程只能拿到public 的属性
 			Field [] fields = entry.getValue().getClass().getDeclaredFields();
 			for (Field field : fields) {
-				
 				if(!field.isAnnotationPresent(GPAutowired.class)){ continue; }
-				
 				GPAutowired autowired = field.getAnnotation(GPAutowired.class);
+				//如果用户没有自定义beanName，默认就根据类型注入
+				//这个地方省去了对类名首字母小写的情况的判断，这个作为课后作业
+				//小伙伴们自己去完善
 				String beanName = autowired.value().trim();
 				if("".equals(beanName)){
 					beanName = field.getType().getName();
 				}
+				//如果是public 以外的修饰符，只要加了@Autowired 注解，都要强制赋值
+				//反射中叫做暴力访问， 强吻
 				field.setAccessible(true); //设置私有属性的访问权限
 				try {
+					//用反射机制，动态给字段赋值
 					field.set(entry.getValue(), ioc.get(beanName));
 				} catch (Exception e) {
 					e.printStackTrace();
