@@ -110,6 +110,14 @@ gupaoedu-vip-netty-rpc
 
 无源码
 
+### 11.Netty实战之手写消息推送系统
+
+gupaoedu-vip-netty-chat
+
+### 12.Netty实战之性能调优与设计模式
+
+gupaoedu-vip-netty-pattern
+
 ## 05分布式服务治理
 
 ### 02.SpringBoot的自动化装载机制的原理分析(上)

@@ -501,7 +501,7 @@ public class DispatcherServlet extends FrameworkServlet {
 		initRequestToViewNameTranslator(context);
 		//初始化视图转换器
 		initViewResolvers(context);
-		//
+		//初始化缓存组件
 		initFlashMapManager(context);
 	}
 
