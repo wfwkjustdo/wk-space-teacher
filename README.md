@@ -92,6 +92,20 @@ rpc-server02
 
 rpc-client02
 
+### 05.分布式服务治理
+
+#### 24. RabbitMQ工作模型与Java编程(青山)
+
+gupaoedu-vip-rabbitmq-javaapi
+
+gupaoedu-vip-springboot-amqp
+
+gupaoedu-vip-springboot-demo
+
+gupaoedu-vip-springboot-project
+
+gupaoedu-vip-spring-rabbitmq
+
 ## 04分布式通讯框架
 
 ### 01.Java IO演进之路
